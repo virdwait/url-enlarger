@@ -1,0 +1,31 @@
+#main {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top: -100px;
+	margin-left: -100px;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+#closeButton {
+	margin: 15px 6px 6px 6px;
+}
